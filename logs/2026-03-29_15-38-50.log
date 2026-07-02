@@ -1,0 +1,82 @@
+2026-03-29 15:38:50 | INFO | application.py:148 | start | Init ReMe with config: {"backend":"","app_name":"ReMe","working_dir":"/home/junsheng/.copaw/workspaces/default","enable_logo":false,"language":"","thread_pool_max_workers":16,"ray_max_workers":-1,"log_to_console":false,"disabled_flows":[],"enabled_flows":[],"mcp_servers":{},"mcp":{"transport":"stdio","host":"0.0.0.0","port":8001},"http":{"host":"0.0.0.0","port":8001,"timeout_keep_alive":3600,"limit_concurrency":1000},"cmd":{"flow":""},"ops":{},"flows":{},"as_llms":{"default":{"backend":"openai","model_name":"qwen3.5-plus"}},"as_llm_formatters":{"default":{"backend":"openai"}},"as_token_counters":{"default":{"backend":"rule","token_count_estimate_divisor":3.75}},"llms":{},"embedding_models":{"default":{"backend":"openai","model_name":"","dimensions":1024,"use_dimensions":false,"enable_cache":true,"max_batch_size":10,"max_cache_size":2000,"max_input_length":8192,"api_key":"","base_url":""}},"vector_stores":{},"file_stores":{"default":{"backend":"chroma","embedding_model":"default","store_name":"copaw","vector_enabled":false,"fts_enabled":true}},"token_counters":{},"file_watchers":{"default":{"backend":"full","file_store":"default","watch_paths":["/home/junsheng/.copaw/workspaces/default/MEMORY.md","/home/junsheng/.copaw/workspaces/default/memory.md","/home/junsheng/.copaw/workspaces/default/memory"],"suffix_filters":[".md"],"recursive":false,"scan_on_start":true}},"metadata":{}}
+2026-03-29 15:38:51 | INFO | base_embedding_model.py:158 | _load_cache | No cache file found at /home/junsheng/.copaw/workspaces/default/embedding_cache/embedding_cache.jsonl, starting with empty cache
+2026-03-29 15:38:51 | INFO | chroma_file_store.py:135 | start | ChromaDB initialized with collection: chunks_copaw
+2026-03-29 15:38:51 | INFO | chroma_file_store.py:136 | start | File metadata will be persisted to: /home/junsheng/.copaw/workspaces/default/copaw_file_metadata.json
+2026-03-29 15:38:51 | INFO | chroma_file_store.py:623 | clear_all | Cleared all data from ChromaDB collection: chunks_copaw
+2026-03-29 15:38:51 | INFO | base_file_watcher.py:84 | start | Cleared all indexed data on start
+2026-03-29 15:38:51 | WARNING | base_file_watcher.py:125 | _scan_existing_files | Watch path does not exist: /home/junsheng/.copaw/workspaces/default/memory.md
+2026-03-29 15:38:51 | INFO | base_file_watcher.py:146 | _scan_existing_files | [SCAN_ON_START] Found 1 existing files matching watch criteria
+2026-03-29 15:38:51 | INFO | full_file_watcher.py:66 | _on_changes | delete_file /home/junsheng/.copaw/workspaces/default/MEMORY.md
+2026-03-29 15:38:51 | INFO | full_file_watcher.py:69 | _on_changes | Upserted 5 chunks for /home/junsheng/.copaw/workspaces/default/MEMORY.md
+2026-03-29 15:38:51 | INFO | full_file_watcher.py:78 | _on_changes | File 1 changed: /home/junsheng/.copaw/workspaces/default/MEMORY.md
+2026-03-29 15:38:51 | INFO | base_file_watcher.py:221 | on_changes | [FullFileWatcher] on_changes: {(<Change.added: 1>, '/home/junsheng/.copaw/workspaces/default/MEMORY.md')}
+2026-03-29 15:38:51 | INFO | base_file_watcher.py:148 | _scan_existing_files | [SCAN_ON_START] Added 1 files to memory store
+2026-03-29 15:38:51 | INFO | base_file_watcher.py:156 | _scan_existing_files | Found existing file: /home/junsheng/.copaw/workspaces/default/MEMORY.md, 5 chunks
+2026-03-29 15:38:51 | INFO | base_file_watcher.py:91 | start | Started watching: ['/home/junsheng/.copaw/workspaces/default/MEMORY.md', '/home/junsheng/.copaw/workspaces/default/memory.md', '/home/junsheng/.copaw/workspaces/default/memory']
+2026-03-29 15:38:51 | INFO | application.py:266 | start | ReMe Application started
+2026-03-29 15:38:51 | WARNING | base_file_watcher.py:182 | _watch_loop | Skipping non-existent paths: {'/home/junsheng/.copaw/workspaces/default/memory.md'}
+2026-03-29 15:38:51 | INFO | base_file_watcher.py:185 | _watch_loop | Starting watch on valid paths: ['/home/junsheng/.copaw/workspaces/default/MEMORY.md', '/home/junsheng/.copaw/workspaces/default/memory']
+2026-03-29 15:41:24 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000059s ==========
+2026-03-29 15:41:24 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000570s ==========
+2026-03-29 15:41:24 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000022s ==========
+2026-03-29 15:41:24 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000129s ==========
+2026-03-29 15:41:58 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000477s ==========
+2026-03-29 15:41:58 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.009735s ==========
+2026-03-29 15:41:58 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000039s ==========
+2026-03-29 15:41:58 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.008517s ==========
+2026-03-29 15:42:02 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000377s ==========
+2026-03-29 15:42:02 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.008648s ==========
+2026-03-29 15:42:02 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000035s ==========
+2026-03-29 15:42:02 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.007678s ==========
+2026-03-29 15:42:16 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000362s ==========
+2026-03-29 15:42:16 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.009454s ==========
+2026-03-29 15:42:17 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000038s ==========
+2026-03-29 15:42:17 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.008918s ==========
+2026-03-29 15:42:22 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000108s ==========
+2026-03-29 15:42:22 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.008840s ==========
+2026-03-29 15:42:22 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000031s ==========
+2026-03-29 15:42:22 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.007676s ==========
+2026-03-29 15:42:27 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000263s ==========
+2026-03-29 15:42:27 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.009205s ==========
+2026-03-29 15:42:27 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000038s ==========
+2026-03-29 15:42:27 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.007933s ==========
+2026-03-29 15:43:51 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000554s ==========
+2026-03-29 15:43:51 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.008169s ==========
+2026-03-29 15:43:51 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000167s ==========
+2026-03-29 15:43:51 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.004653s ==========
+2026-03-29 15:43:57 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000483s ==========
+2026-03-29 15:43:57 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.012102s ==========
+2026-03-29 15:43:57 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000044s ==========
+2026-03-29 15:43:57 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.010792s ==========
+2026-03-29 15:44:03 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000405s ==========
+2026-03-29 15:44:03 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.012257s ==========
+2026-03-29 15:44:03 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000041s ==========
+2026-03-29 15:44:03 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.010579s ==========
+2026-03-29 15:44:09 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000395s ==========
+2026-03-29 15:44:09 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.013405s ==========
+2026-03-29 15:44:09 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000049s ==========
+2026-03-29 15:44:09 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.012171s ==========
+2026-03-29 15:44:18 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000279s ==========
+2026-03-29 15:44:18 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.023917s ==========
+2026-03-29 15:44:18 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000090s ==========
+2026-03-29 15:44:18 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.014910s ==========
+2026-03-29 15:44:24 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000351s ==========
+2026-03-29 15:44:24 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.013987s ==========
+2026-03-29 15:44:24 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000044s ==========
+2026-03-29 15:44:24 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.012874s ==========
+2026-03-29 15:44:30 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000477s ==========
+2026-03-29 15:44:30 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.014068s ==========
+2026-03-29 15:44:30 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000054s ==========
+2026-03-29 15:44:30 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.012482s ==========
+2026-03-29 15:45:18 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000115s ==========
+2026-03-29 15:45:18 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.022041s ==========
+2026-03-29 15:45:18 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000231s ==========
+2026-03-29 15:45:18 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.020079s ==========
+2026-03-29 15:45:30 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000220s ==========
+2026-03-29 15:45:30 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.021533s ==========
+2026-03-29 15:45:30 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000143s ==========
+2026-03-29 15:45:30 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.023333s ==========
+2026-03-29 15:46:39 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000639s ==========
+2026-03-29 15:46:39 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.037370s ==========
+2026-03-29 15:46:39 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000230s ==========
+2026-03-29 15:46:39 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.032474s ==========

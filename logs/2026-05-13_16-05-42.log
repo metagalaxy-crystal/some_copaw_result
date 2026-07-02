@@ -1,0 +1,196 @@
+2026-05-13 16:05:42 | INFO | application.py:148 | start | Init ReMe with config: {"backend":"","app_name":"ReMe","working_dir":"/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1","enable_logo":false,"language":"","thread_pool_max_workers":-1,"ray_max_workers":-1,"log_to_console":false,"disabled_flows":[],"enabled_flows":[],"mcp_servers":{},"mcp":{"transport":"stdio","host":"0.0.0.0","port":8001},"http":{"host":"0.0.0.0","port":8001,"timeout_keep_alive":3600,"limit_concurrency":1000},"cmd":{"flow":""},"ops":{},"flows":{},"as_llms":{"default":{"backend":"openai","model_name":"qwen3.5-plus"}},"as_llm_formatters":{"default":{"backend":"openai"}},"as_token_counters":{"default":{"backend":"rule","token_count_estimate_divisor":3.75}},"llms":{},"embedding_models":{"default":{"backend":"openai","model_name":"","dimensions":1024,"use_dimensions":false,"enable_cache":true,"max_batch_size":10,"max_cache_size":3000,"max_input_length":8192,"api_key":"","base_url":""}},"vector_stores":{},"file_stores":{"default":{"backend":"chroma","embedding_model":"default","store_name":"copaw","vector_enabled":false,"fts_enabled":true}},"token_counters":{},"file_watchers":{"default":{"backend":"full","file_store":"default","watch_paths":["/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/MEMORY.md","/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/memory.md","/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/memory"],"suffix_filters":[".md"],"recursive":false,"rebuild_index_on_start":false}},"metadata":{}}
+2026-05-13 16:05:42 | INFO | application.py:167 | start | Thread pool is disabled (thread_pool_max_workers <= 0)
+2026-05-13 16:05:42 | ERROR | application.py:186 | start | Failed to initialize AS LLM 'default': Missing credentials. Please pass an `api_key`, `workload_identity`, `admin_api_key`, or set the `OPENAI_API_KEY` or `OPENAI_ADMIN_KEY` environment variable.
+2026-05-13 16:05:42 | INFO | base_embedding_model.py:158 | _load_cache | No cache file found at /home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/embedding_cache/embedding_cache.jsonl, starting with empty cache
+2026-05-13 16:05:42 | INFO | chroma_file_store.py:134 | start | ChromaDB initialized with collection: chunks_copaw
+2026-05-13 16:05:42 | INFO | chroma_file_store.py:135 | start | File metadata will be persisted to: /home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/copaw_file_metadata.json
+2026-05-13 16:05:42 | INFO | base_file_watcher.py:89 | start | Started watching: ['/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/MEMORY.md', '/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/memory.md', '/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/memory']
+2026-05-13 16:05:42 | INFO | application.py:277 | start | ReMe Application started
+2026-05-13 16:05:42 | WARNING | base_file_watcher.py:180 | _watch_loop | Skipping non-existent paths: {'/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/memory.md'}
+2026-05-13 16:05:42 | INFO | base_file_watcher.py:183 | _watch_loop | Starting watch on valid paths: ['/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/MEMORY.md', '/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/memory']
+2026-05-13 16:17:38 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-05-13 16:17:38 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000266s ==========
+2026-05-13 16:17:38 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000057s ==========
+2026-05-13 16:17:38 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-05-13 16:17:38 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000127s ==========
+2026-05-13 16:17:38 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000041s ==========
+2026-05-13 16:17:40 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:17:40 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000201s ==========
+2026-05-13 16:17:40 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000059s ==========
+2026-05-13 16:17:40 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:17:40 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000129s ==========
+2026-05-13 16:17:40 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000095s ==========
+2026-05-13 16:17:47 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:17:47 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000297s ==========
+2026-05-13 16:17:47 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000165s ==========
+2026-05-13 16:17:47 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:17:47 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000132s ==========
+2026-05-13 16:17:47 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000073s ==========
+2026-05-13 16:17:50 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:17:50 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000297s ==========
+2026-05-13 16:17:50 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000133s ==========
+2026-05-13 16:17:50 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:17:50 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000126s ==========
+2026-05-13 16:17:50 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000145s ==========
+2026-05-13 16:19:52 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:19:52 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000657s ==========
+2026-05-13 16:19:52 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000355s ==========
+2026-05-13 16:19:52 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:19:52 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000264s ==========
+2026-05-13 16:19:52 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000269s ==========
+2026-05-13 16:21:33 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:21:33 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000356s ==========
+2026-05-13 16:21:33 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000200s ==========
+2026-05-13 16:21:33 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:21:33 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000115s ==========
+2026-05-13 16:21:33 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000123s ==========
+2026-05-13 16:22:05 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:05 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000657s ==========
+2026-05-13 16:22:05 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000448s ==========
+2026-05-13 16:22:05 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:05 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000310s ==========
+2026-05-13 16:22:05 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000283s ==========
+2026-05-13 16:22:10 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:10 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000618s ==========
+2026-05-13 16:22:10 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000465s ==========
+2026-05-13 16:22:10 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:10 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000210s ==========
+2026-05-13 16:22:10 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000265s ==========
+2026-05-13 16:22:17 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:17 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000426s ==========
+2026-05-13 16:22:17 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000477s ==========
+2026-05-13 16:22:17 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:17 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000203s ==========
+2026-05-13 16:22:17 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000187s ==========
+2026-05-13 16:22:25 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:25 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000255s ==========
+2026-05-13 16:22:25 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000228s ==========
+2026-05-13 16:22:25 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:25 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000156s ==========
+2026-05-13 16:22:25 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000196s ==========
+2026-05-13 16:22:27 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:27 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000183s ==========
+2026-05-13 16:22:27 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000173s ==========
+2026-05-13 16:22:27 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:27 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000112s ==========
+2026-05-13 16:22:27 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000146s ==========
+2026-05-13 16:22:36 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:36 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.001289s ==========
+2026-05-13 16:22:36 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000712s ==========
+2026-05-13 16:22:36 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:36 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000217s ==========
+2026-05-13 16:22:36 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000290s ==========
+2026-05-13 16:22:38 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:38 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000742s ==========
+2026-05-13 16:22:38 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000450s ==========
+2026-05-13 16:22:38 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:38 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000274s ==========
+2026-05-13 16:22:38 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000344s ==========
+2026-05-13 16:22:42 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:42 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000640s ==========
+2026-05-13 16:22:42 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000277s ==========
+2026-05-13 16:22:42 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:42 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000138s ==========
+2026-05-13 16:22:42 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000234s ==========
+2026-05-13 16:22:45 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:45 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000465s ==========
+2026-05-13 16:22:45 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000448s ==========
+2026-05-13 16:22:45 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:45 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000193s ==========
+2026-05-13 16:22:45 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000364s ==========
+2026-05-13 16:22:51 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:51 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000401s ==========
+2026-05-13 16:22:51 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000323s ==========
+2026-05-13 16:22:51 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:51 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000215s ==========
+2026-05-13 16:22:51 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000329s ==========
+2026-05-13 16:22:54 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:54 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000342s ==========
+2026-05-13 16:22:54 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000762s ==========
+2026-05-13 16:22:54 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:54 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000361s ==========
+2026-05-13 16:22:54 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000592s ==========
+2026-05-13 16:22:57 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:57 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000444s ==========
+2026-05-13 16:22:57 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000493s ==========
+2026-05-13 16:22:57 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:57 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000236s ==========
+2026-05-13 16:22:57 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000350s ==========
+2026-05-13 16:22:59 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:59 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000373s ==========
+2026-05-13 16:22:59 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000695s ==========
+2026-05-13 16:22:59 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:22:59 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000233s ==========
+2026-05-13 16:22:59 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000321s ==========
+2026-05-13 16:23:04 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:23:04 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000401s ==========
+2026-05-13 16:23:04 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000351s ==========
+2026-05-13 16:23:04 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:23:04 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000145s ==========
+2026-05-13 16:23:04 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000278s ==========
+2026-05-13 16:23:06 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:23:06 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000752s ==========
+2026-05-13 16:23:06 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000561s ==========
+2026-05-13 16:23:06 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:23:06 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000250s ==========
+2026-05-13 16:23:06 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000384s ==========
+2026-05-13 16:23:15 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:23:15 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000469s ==========
+2026-05-13 16:23:15 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000721s ==========
+2026-05-13 16:23:15 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:23:15 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000212s ==========
+2026-05-13 16:23:15 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000453s ==========
+2026-05-13 16:23:18 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:23:18 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000604s ==========
+2026-05-13 16:23:18 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000828s ==========
+2026-05-13 16:23:18 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:23:18 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000270s ==========
+2026-05-13 16:23:18 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000602s ==========
+2026-05-13 16:38:57 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:38:57 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000788s ==========
+2026-05-13 16:38:57 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000704s ==========
+2026-05-13 16:38:57 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:38:57 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000162s ==========
+2026-05-13 16:38:57 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000393s ==========
+2026-05-13 16:39:26 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:39:26 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000620s ==========
+2026-05-13 16:39:26 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.001704s ==========
+2026-05-13 16:39:26 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:39:26 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000519s ==========
+2026-05-13 16:39:26 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000978s ==========
+2026-05-13 16:39:31 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:39:31 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000416s ==========
+2026-05-13 16:39:31 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.001017s ==========
+2026-05-13 16:39:31 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:39:31 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000184s ==========
+2026-05-13 16:39:31 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000437s ==========
+2026-05-13 16:39:33 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:39:33 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.001050s ==========
+2026-05-13 16:39:33 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.001094s ==========
+2026-05-13 16:39:33 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:39:33 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000363s ==========
+2026-05-13 16:39:33 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000625s ==========
+2026-05-13 16:39:40 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:39:40 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000901s ==========
+2026-05-13 16:39:40 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.001947s ==========
+2026-05-13 16:39:40 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:39:40 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000442s ==========
+2026-05-13 16:39:40 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.001529s ==========
+2026-05-13 16:39:52 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:39:52 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000950s ==========
+2026-05-13 16:39:52 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.001563s ==========
+2026-05-13 16:39:52 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:39:52 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000276s ==========
+2026-05-13 16:39:52 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000656s ==========
+2026-05-13 16:40:16 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:40:16 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000432s ==========
+2026-05-13 16:40:16 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000803s ==========
+2026-05-13 16:40:16 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:40:16 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000170s ==========
+2026-05-13 16:40:16 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000529s ==========
+2026-05-13 16:40:19 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:40:19 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000401s ==========
+2026-05-13 16:40:19 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000699s ==========
+2026-05-13 16:40:19 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: {'call_00_dvLsRi1sNK7F6SSZESRj2071'}
+2026-05-13 16:40:19 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000224s ==========
+2026-05-13 16:40:19 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000636s ==========

@@ -1,0 +1,9 @@
+2026-03-29 00:05:32 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000658s ==========
+2026-03-29 00:05:32 | INFO | tool_result_compactor.py:142 | cleanup_expired_files | Cleaned up %d expired files
+2026-03-29 00:05:32 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.051837s ==========
+2026-03-29 00:05:32 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000103s ==========
+2026-03-29 00:05:32 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.032485s ==========
+2026-03-29 00:05:40 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000901s ==========
+2026-03-29 00:05:41 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.044805s ==========
+2026-03-29 00:05:41 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000106s ==========
+2026-03-29 00:05:41 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.033832s ==========

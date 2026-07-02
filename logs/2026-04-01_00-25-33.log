@@ -1,0 +1,193 @@
+2026-04-01 00:25:33 | INFO | application.py:148 | start | Init ReMe with config: {"backend":"","app_name":"ReMe","working_dir":"/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1","enable_logo":false,"language":"","thread_pool_max_workers":-1,"ray_max_workers":-1,"log_to_console":false,"disabled_flows":[],"enabled_flows":[],"mcp_servers":{},"mcp":{"transport":"stdio","host":"0.0.0.0","port":8001},"http":{"host":"0.0.0.0","port":8001,"timeout_keep_alive":3600,"limit_concurrency":1000},"cmd":{"flow":""},"ops":{},"flows":{},"as_llms":{"default":{"backend":"openai","model_name":"qwen3.5-plus"}},"as_llm_formatters":{"default":{"backend":"openai"}},"as_token_counters":{"default":{"backend":"rule","token_count_estimate_divisor":3.75}},"llms":{},"embedding_models":{"default":{"backend":"openai","model_name":"","dimensions":1024,"use_dimensions":false,"enable_cache":true,"max_batch_size":10,"max_cache_size":3000,"max_input_length":8192,"api_key":"","base_url":""}},"vector_stores":{},"file_stores":{"default":{"backend":"chroma","embedding_model":"default","store_name":"copaw","vector_enabled":false,"fts_enabled":true}},"token_counters":{},"file_watchers":{"default":{"backend":"full","file_store":"default","watch_paths":["/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/MEMORY.md","/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/memory.md","/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/memory"],"suffix_filters":[".md"],"recursive":false,"rebuild_index_on_start":false}},"metadata":{}}
+2026-04-01 00:25:33 | INFO | application.py:167 | start | Thread pool is disabled (thread_pool_max_workers <= 0)
+2026-04-01 00:25:33 | INFO | base_embedding_model.py:158 | _load_cache | No cache file found at /home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/embedding_cache/embedding_cache.jsonl, starting with empty cache
+2026-04-01 00:25:33 | INFO | chroma_file_store.py:135 | start | ChromaDB initialized with collection: chunks_copaw
+2026-04-01 00:25:33 | INFO | chroma_file_store.py:136 | start | File metadata will be persisted to: /home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/copaw_file_metadata.json
+2026-04-01 00:25:33 | INFO | base_file_watcher.py:89 | start | Started watching: ['/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/MEMORY.md', '/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/memory.md', '/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/memory']
+2026-04-01 00:25:33 | INFO | application.py:268 | start | ReMe Application started
+2026-04-01 00:25:33 | WARNING | base_file_watcher.py:180 | _watch_loop | Skipping non-existent paths: {'/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/memory.md'}
+2026-04-01 00:25:33 | INFO | base_file_watcher.py:183 | _watch_loop | Starting watch on valid paths: ['/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/MEMORY.md', '/home/junsheng/.copaw/workspaces/CoPaw_QA_Agent_0.1beta1/memory']
+2026-04-01 00:29:21 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:29:21 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000277s ==========
+2026-04-01 00:29:21 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:29:21 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000150s ==========
+2026-04-01 00:29:21 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:29:21 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000156s ==========
+2026-04-01 00:29:21 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:29:21 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000111s ==========
+2026-04-01 00:29:28 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:29:28 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000305s ==========
+2026-04-01 00:29:28 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:29:28 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000212s ==========
+2026-04-01 00:29:28 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:29:28 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000124s ==========
+2026-04-01 00:29:28 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:29:28 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000137s ==========
+2026-04-01 00:29:37 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:29:37 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000471s ==========
+2026-04-01 00:29:37 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:29:37 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000179s ==========
+2026-04-01 00:29:37 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:29:37 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000106s ==========
+2026-04-01 00:29:37 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:29:37 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000106s ==========
+2026-04-01 00:29:47 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:29:47 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000302s ==========
+2026-04-01 00:29:47 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:29:47 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000210s ==========
+2026-04-01 00:29:47 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:29:47 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000153s ==========
+2026-04-01 00:29:47 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:29:47 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000206s ==========
+2026-04-01 00:30:03 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:03 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000220s ==========
+2026-04-01 00:30:03 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:03 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000155s ==========
+2026-04-01 00:30:03 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:03 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000125s ==========
+2026-04-01 00:30:03 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:03 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000133s ==========
+2026-04-01 00:30:06 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:06 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000309s ==========
+2026-04-01 00:30:06 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:06 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000199s ==========
+2026-04-01 00:30:06 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:06 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000113s ==========
+2026-04-01 00:30:06 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:06 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000131s ==========
+2026-04-01 00:30:14 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:14 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000245s ==========
+2026-04-01 00:30:14 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:14 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000204s ==========
+2026-04-01 00:30:14 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:14 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000108s ==========
+2026-04-01 00:30:14 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:14 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000149s ==========
+2026-04-01 00:30:17 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:17 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000296s ==========
+2026-04-01 00:30:17 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:17 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000221s ==========
+2026-04-01 00:30:17 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:17 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000097s ==========
+2026-04-01 00:30:17 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:17 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000151s ==========
+2026-04-01 00:30:23 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:23 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000287s ==========
+2026-04-01 00:30:23 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:23 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000248s ==========
+2026-04-01 00:30:23 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:23 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000125s ==========
+2026-04-01 00:30:23 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:23 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000220s ==========
+2026-04-01 00:30:28 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:28 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000290s ==========
+2026-04-01 00:30:28 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:28 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000292s ==========
+2026-04-01 00:30:28 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:28 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000120s ==========
+2026-04-01 00:30:28 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:28 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000217s ==========
+2026-04-01 00:30:33 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:33 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000422s ==========
+2026-04-01 00:30:33 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:33 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000400s ==========
+2026-04-01 00:30:33 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:33 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000196s ==========
+2026-04-01 00:30:33 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:33 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000328s ==========
+2026-04-01 00:30:40 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:40 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000438s ==========
+2026-04-01 00:30:40 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:40 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000658s ==========
+2026-04-01 00:30:40 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:40 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000162s ==========
+2026-04-01 00:30:40 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:40 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000245s ==========
+2026-04-01 00:30:44 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:44 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000317s ==========
+2026-04-01 00:30:44 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:44 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000353s ==========
+2026-04-01 00:30:44 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:44 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000111s ==========
+2026-04-01 00:30:44 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:44 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000255s ==========
+2026-04-01 00:30:49 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:49 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000412s ==========
+2026-04-01 00:30:49 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:49 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000450s ==========
+2026-04-01 00:30:49 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:49 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000231s ==========
+2026-04-01 00:30:49 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:49 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000400s ==========
+2026-04-01 00:30:56 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:56 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000562s ==========
+2026-04-01 00:30:56 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:56 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000480s ==========
+2026-04-01 00:30:56 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:30:56 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000196s ==========
+2026-04-01 00:30:56 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:30:56 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000429s ==========
+2026-04-01 00:31:01 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:31:01 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000198s ==========
+2026-04-01 00:31:01 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:31:01 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000554s ==========
+2026-04-01 00:31:01 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:31:01 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000128s ==========
+2026-04-01 00:31:01 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:31:01 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000309s ==========
+2026-04-01 00:32:41 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:32:41 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000416s ==========
+2026-04-01 00:32:41 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:32:41 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000402s ==========
+2026-04-01 00:32:41 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:32:41 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000159s ==========
+2026-04-01 00:32:41 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:32:41 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000394s ==========
+2026-04-01 00:32:49 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:32:49 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000923s ==========
+2026-04-01 00:32:49 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:32:49 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000644s ==========
+2026-04-01 00:32:49 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:32:49 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000166s ==========
+2026-04-01 00:32:49 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:32:49 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000395s ==========
+2026-04-01 00:33:12 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:33:12 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000223s ==========
+2026-04-01 00:33:12 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:33:12 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000409s ==========
+2026-04-01 00:33:12 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:33:12 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000130s ==========
+2026-04-01 00:33:12 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:33:12 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000330s ==========
+2026-04-01 00:33:20 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:33:20 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000364s ==========
+2026-04-01 00:33:20 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:33:20 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000439s ==========
+2026-04-01 00:33:20 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:33:20 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000132s ==========
+2026-04-01 00:33:20 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:33:20 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000323s ==========
+2026-04-01 00:33:36 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:33:36 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000308s ==========
+2026-04-01 00:33:36 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:33:36 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000443s ==========
+2026-04-01 00:33:36 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:33:36 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000127s ==========
+2026-04-01 00:33:36 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:33:36 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000479s ==========
+2026-04-01 00:34:29 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:34:29 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000241s ==========
+2026-04-01 00:34:29 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:34:29 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000506s ==========
+2026-04-01 00:34:29 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:34:29 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000282s ==========
+2026-04-01 00:34:29 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:34:29 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000587s ==========
+2026-04-01 00:34:38 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:34:38 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000369s ==========
+2026-04-01 00:34:38 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:34:38 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.001455s ==========
+2026-04-01 00:34:38 | INFO | tool_result_compactor.py:113 | execute | md_file_tool_ids: set()
+2026-04-01 00:34:38 | INFO | base_op.py:287 | ToolResultCompactor.call | ========== cost=0.000197s ==========
+2026-04-01 00:34:38 | WARNING | as_msg_handler.py:185 | stat_message | Unsupported block type file, skipped.
+2026-04-01 00:34:38 | INFO | base_op.py:287 | ContextChecker.call | ========== cost=0.000520s ==========
