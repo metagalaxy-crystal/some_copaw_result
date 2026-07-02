@@ -1,0 +1,237 @@
+{
+  "2026-03-20": {
+    "minimax-custom:Pro/MiniMaxAI/MiniMax-M2.5": {
+      "provider_id": "minimax-custom",
+      "model_name": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "prompt_tokens": 976376,
+      "completion_tokens": 10097,
+      "call_count": 54
+    },
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 563769,
+      "completion_tokens": 10866,
+      "call_count": 17
+    }
+  },
+  "2026-03-21": {
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 1991645,
+      "completion_tokens": 37708,
+      "call_count": 98
+    },
+    "lmstudio:qwen/qwen3.5-9b": {
+      "provider_id": "lmstudio",
+      "model_name": "qwen/qwen3.5-9b",
+      "prompt_tokens": 207675,
+      "completion_tokens": 3404,
+      "call_count": 27
+    },
+    "lmstudio:qwen/qwen3-4b-thinking-2507": {
+      "provider_id": "lmstudio",
+      "model_name": "qwen/qwen3-4b-thinking-2507",
+      "prompt_tokens": 18068,
+      "completion_tokens": 2072,
+      "call_count": 2
+    },
+    "lmstudio:qwen/qwen3-4b-2507": {
+      "provider_id": "lmstudio",
+      "model_name": "qwen/qwen3-4b-2507",
+      "prompt_tokens": 12995,
+      "completion_tokens": 64,
+      "call_count": 2
+    },
+    "lmstudio:liquid/lfm2.5-1.2b": {
+      "provider_id": "lmstudio",
+      "model_name": "liquid/lfm2.5-1.2b",
+      "prompt_tokens": 57104,
+      "completion_tokens": 614,
+      "call_count": 7
+    }
+  },
+  "2026-03-22": {
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 515947,
+      "completion_tokens": 7412,
+      "call_count": 50
+    },
+    "siliconcloud:Pro/MiniMaxAI/MiniMax-M2.5": {
+      "provider_id": "siliconcloud",
+      "model_name": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "prompt_tokens": 4493195,
+      "completion_tokens": 42903,
+      "call_count": 184
+    }
+  },
+  "2026-03-27": {
+    "siliconcloud:Pro/MiniMaxAI/MiniMax-M2.5": {
+      "provider_id": "siliconcloud",
+      "model_name": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "prompt_tokens": 1182730,
+      "completion_tokens": 20081,
+      "call_count": 59
+    }
+  },
+  "2026-03-28": {
+    "siliconcloud:Pro/MiniMaxAI/MiniMax-M2.5": {
+      "provider_id": "siliconcloud",
+      "model_name": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "prompt_tokens": 645924,
+      "completion_tokens": 9431,
+      "call_count": 17
+    }
+  },
+  "2026-03-29": {
+    "siliconcloud:Pro/MiniMaxAI/MiniMax-M2.5": {
+      "provider_id": "siliconcloud",
+      "model_name": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "prompt_tokens": 404404,
+      "completion_tokens": 14257,
+      "call_count": 18
+    }
+  },
+  "2026-03-31": {
+    "siliconcloud:Pro/MiniMaxAI/MiniMax-M2.5": {
+      "provider_id": "siliconcloud",
+      "model_name": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "prompt_tokens": 80655,
+      "completion_tokens": 1065,
+      "call_count": 7
+    },
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 1823962,
+      "completion_tokens": 16632,
+      "call_count": 63
+    }
+  },
+  "2026-04-01": {
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 448530,
+      "completion_tokens": 7519,
+      "call_count": 23
+    }
+  },
+  "2026-04-10": {
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 1253926,
+      "completion_tokens": 22892,
+      "call_count": 19
+    }
+  },
+  "2026-04-27": {
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 11139,
+      "completion_tokens": 355,
+      "call_count": 1
+    }
+  },
+  "2026-05-03": {
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 3991694,
+      "completion_tokens": 35952,
+      "call_count": 61
+    }
+  },
+  "2026-05-05": {
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 627011,
+      "completion_tokens": 12370,
+      "call_count": 16
+    },
+    "siliconcloud:Pro/MiniMaxAI/MiniMax-M2.5": {
+      "provider_id": "siliconcloud",
+      "model_name": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "prompt_tokens": 10724,
+      "completion_tokens": 133,
+      "call_count": 1
+    },
+    "siliconcloud:Pro/zai-org/GLM-5.1": {
+      "provider_id": "siliconcloud",
+      "model_name": "Pro/zai-org/GLM-5.1",
+      "prompt_tokens": 1464221,
+      "completion_tokens": 35038,
+      "call_count": 39
+    },
+    "siliconcloud:deepseek-ai/DeepSeek-V4-Flash": {
+      "provider_id": "siliconcloud",
+      "model_name": "deepseek-ai/DeepSeek-V4-Flash",
+      "prompt_tokens": 11249,
+      "completion_tokens": 321,
+      "call_count": 1
+    }
+  },
+  "2026-05-06": {
+    "siliconcloud:Pro/zai-org/GLM-5.1": {
+      "provider_id": "siliconcloud",
+      "model_name": "Pro/zai-org/GLM-5.1",
+      "prompt_tokens": 2370444,
+      "completion_tokens": 33965,
+      "call_count": 55
+    },
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 2042706,
+      "completion_tokens": 37836,
+      "call_count": 71
+    },
+    "siliconcloud:deepseek-ai/DeepSeek-V4-Flash": {
+      "provider_id": "siliconcloud",
+      "model_name": "deepseek-ai/DeepSeek-V4-Flash",
+      "prompt_tokens": 12874,
+      "completion_tokens": 167,
+      "call_count": 1
+    }
+  },
+  "2026-05-08": {
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 2613641,
+      "completion_tokens": 49635,
+      "call_count": 39
+    }
+  },
+  "2026-05-12": {
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 4708657,
+      "completion_tokens": 48267,
+      "call_count": 122
+    }
+  },
+  "2026-05-13": {
+    "deepseek:deepseek-v4-flash": {
+      "provider_id": "deepseek",
+      "model_name": "deepseek-v4-flash",
+      "prompt_tokens": 810632,
+      "completion_tokens": 11897,
+      "call_count": 31
+    },
+    "siliconcloud:Qwen/Qwen3.5-397B-A17B": {
+      "provider_id": "siliconcloud",
+      "model_name": "Qwen/Qwen3.5-397B-A17B",
+      "prompt_tokens": 3472817,
+      "completion_tokens": 18086,
+      "call_count": 98
+    }
+  }
+}

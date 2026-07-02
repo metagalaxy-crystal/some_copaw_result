@@ -1,0 +1,128 @@
+[
+  {
+    "skill_name": "docx",
+    "blocked_at": "2026-03-21T09:05:31.424116+00:00",
+    "max_severity": "HIGH",
+    "findings": [
+      {
+        "severity": "HIGH",
+        "title": "Infinite loop without clear exit condition",
+        "description": "Infinite loop without clear exit condition",
+        "file_path": "scripts/office/helpers/merge_runs.py",
+        "line_number": 113,
+        "rule_id": "RESOURCE_ABUSE_INFINITE_LOOP"
+      }
+    ],
+    "content_hash": "439f57f9644b1b186eced8581cf9e9c55f656fa4a3e2ebd1be200279f0e913e8",
+    "action": "warned"
+  },
+  {
+    "skill_name": "pptx",
+    "blocked_at": "2026-03-21T09:05:53.602550+00:00",
+    "max_severity": "HIGH",
+    "findings": [
+      {
+        "severity": "HIGH",
+        "title": "Infinite loop without clear exit condition",
+        "description": "Infinite loop without clear exit condition",
+        "file_path": "scripts/clean.py",
+        "line_number": 250,
+        "rule_id": "RESOURCE_ABUSE_INFINITE_LOOP"
+      },
+      {
+        "severity": "HIGH",
+        "title": "Infinite loop without clear exit condition",
+        "description": "Infinite loop without clear exit condition",
+        "file_path": "scripts/office/helpers/merge_runs.py",
+        "line_number": 113,
+        "rule_id": "RESOURCE_ABUSE_INFINITE_LOOP"
+      }
+    ],
+    "content_hash": "16a6a8fd8e425e568495c96a2188d50bf4ee466a0085fdcc3e446d61821197b1",
+    "action": "warned"
+  },
+  {
+    "skill_name": "docx",
+    "blocked_at": "2026-03-21T09:06:24.512187+00:00",
+    "max_severity": "HIGH",
+    "findings": [
+      {
+        "severity": "HIGH",
+        "title": "Infinite loop without clear exit condition",
+        "description": "Infinite loop without clear exit condition",
+        "file_path": "scripts/office/helpers/merge_runs.py",
+        "line_number": 113,
+        "rule_id": "RESOURCE_ABUSE_INFINITE_LOOP"
+      }
+    ],
+    "content_hash": "439f57f9644b1b186eced8581cf9e9c55f656fa4a3e2ebd1be200279f0e913e8",
+    "action": "warned"
+  },
+  {
+    "skill_name": "pptx",
+    "blocked_at": "2026-03-21T09:06:36.909527+00:00",
+    "max_severity": "HIGH",
+    "findings": [
+      {
+        "severity": "HIGH",
+        "title": "Infinite loop without clear exit condition",
+        "description": "Infinite loop without clear exit condition",
+        "file_path": "scripts/clean.py",
+        "line_number": 250,
+        "rule_id": "RESOURCE_ABUSE_INFINITE_LOOP"
+      },
+      {
+        "severity": "HIGH",
+        "title": "Infinite loop without clear exit condition",
+        "description": "Infinite loop without clear exit condition",
+        "file_path": "scripts/office/helpers/merge_runs.py",
+        "line_number": 113,
+        "rule_id": "RESOURCE_ABUSE_INFINITE_LOOP"
+      }
+    ],
+    "content_hash": "16a6a8fd8e425e568495c96a2188d50bf4ee466a0085fdcc3e446d61821197b1",
+    "action": "warned"
+  },
+  {
+    "skill_name": "docx",
+    "blocked_at": "2026-03-22T07:42:43.832331+00:00",
+    "max_severity": "HIGH",
+    "findings": [
+      {
+        "severity": "HIGH",
+        "title": "Infinite loop without clear exit condition",
+        "description": "Infinite loop without clear exit condition",
+        "file_path": "scripts/office/helpers/merge_runs.py",
+        "line_number": 113,
+        "rule_id": "RESOURCE_ABUSE_INFINITE_LOOP"
+      }
+    ],
+    "content_hash": "439f57f9644b1b186eced8581cf9e9c55f656fa4a3e2ebd1be200279f0e913e8",
+    "action": "warned"
+  },
+  {
+    "skill_name": "pptx",
+    "blocked_at": "2026-03-22T07:43:00.995553+00:00",
+    "max_severity": "HIGH",
+    "findings": [
+      {
+        "severity": "HIGH",
+        "title": "Infinite loop without clear exit condition",
+        "description": "Infinite loop without clear exit condition",
+        "file_path": "scripts/clean.py",
+        "line_number": 250,
+        "rule_id": "RESOURCE_ABUSE_INFINITE_LOOP"
+      },
+      {
+        "severity": "HIGH",
+        "title": "Infinite loop without clear exit condition",
+        "description": "Infinite loop without clear exit condition",
+        "file_path": "scripts/office/helpers/merge_runs.py",
+        "line_number": 113,
+        "rule_id": "RESOURCE_ABUSE_INFINITE_LOOP"
+      }
+    ],
+    "content_hash": "16a6a8fd8e425e568495c96a2188d50bf4ee466a0085fdcc3e446d61821197b1",
+    "action": "warned"
+  }
+]
