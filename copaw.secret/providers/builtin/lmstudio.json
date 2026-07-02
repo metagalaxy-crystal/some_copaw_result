@@ -1,0 +1,20 @@
+{
+  "id": "lmstudio",
+  "name": "LM Studio",
+  "base_url": "http://192.168.230.1:1234/v1",
+  "api_key": "ENC:gAAAAABp-drUvPHp08vb-sOdG4oie8_yFkFD25oKSF7WZ92YHOPeAxKUkN8TuD6uID9N9jg1LlVcs55JjdF1Dsc-mGUXPfhMRAp2qZvUKpORTSCo24jNMgTuKABFs9Th_5mOeup-gzSF",
+  "chat_model": "OpenAIChatModel",
+  "models": [],
+  "extra_models": [],
+  "api_key_prefix": "",
+  "is_local": false,
+  "freeze_url": false,
+  "require_api_key": false,
+  "is_custom": false,
+  "support_model_discovery": true,
+  "support_connection_check": true,
+  "generate_kwargs": {
+    "max_tokens": null
+  },
+  "meta": {}
+}

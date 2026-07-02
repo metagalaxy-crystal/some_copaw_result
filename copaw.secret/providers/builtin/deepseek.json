@@ -1,0 +1,56 @@
+{
+  "id": "deepseek",
+  "name": "DeepSeek",
+  "base_url": "https://api.deepseek.com",
+  "api_key": "ENC:gAAAAABqBDNHTuf1Q1VYi5AUcrlMZdvShDYoPDGZ6TdPJhF_psMm6JIBE4ICJEGWmyq_Z5B2bqdSqPdsC1zEsE7BKug7IV9c6lmqXFuF0emTb7vlhR36unRutS3pYlp_uv75nIilpX4I",
+  "chat_model": "OpenAIChatModel",
+  "models": [
+    {
+      "id": "deepseek-chat",
+      "name": "DeepSeek Chat",
+      "supports_multimodal": false,
+      "supports_image": false,
+      "supports_video": false,
+      "probe_source": "probed",
+      "generate_kwargs": {}
+    },
+    {
+      "id": "deepseek-reasoner",
+      "name": "DeepSeek Reasoner",
+      "supports_multimodal": false,
+      "supports_image": false,
+      "supports_video": false,
+      "probe_source": "probed",
+      "generate_kwargs": {}
+    }
+  ],
+  "extra_models": [
+    {
+      "id": "deepseek-v4-flash",
+      "name": "deepseek-v4-flash",
+      "supports_multimodal": false,
+      "supports_image": false,
+      "supports_video": false,
+      "probe_source": "probed",
+      "generate_kwargs": {}
+    },
+    {
+      "id": "deepseek-v4-pro",
+      "name": "deepseek-v4-pro",
+      "supports_multimodal": false,
+      "supports_image": false,
+      "supports_video": false,
+      "probe_source": "probed",
+      "generate_kwargs": {}
+    }
+  ],
+  "api_key_prefix": "sk-",
+  "is_local": false,
+  "freeze_url": true,
+  "require_api_key": true,
+  "is_custom": false,
+  "support_model_discovery": false,
+  "support_connection_check": true,
+  "generate_kwargs": {},
+  "meta": {}
+}

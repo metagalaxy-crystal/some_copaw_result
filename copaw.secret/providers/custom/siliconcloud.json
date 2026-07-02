@@ -1,0 +1,37 @@
+{
+  "id": "siliconcloud",
+  "name": "SiliconCloud",
+  "base_url": "https://api.siliconflow.cn/v1",
+  "api_key": "ENC:gAAAAABp_ct5mEsXhIMy8XJhe2qkiGqmOjF2KginyDg7D_OPstyEk-ale8uhzQ4a1j-GxDATpwTLjnfmNLJRpVGblsqyV2BCeK1lwr7boYWXsHdrFLPFp2SubF8QyZ8r2n4HBClBX2_OYQODQvqrZXe8ZlCKxx6Quw==",
+  "chat_model": "OpenAIChatModel",
+  "models": [],
+  "extra_models": [
+    {
+      "id": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "name": "Pro/MiniMaxAI/MiniMax-M2.5",
+      "supports_multimodal": false,
+      "supports_image": false,
+      "supports_video": false,
+      "probe_source": "probed",
+      "generate_kwargs": {}
+    },
+    {
+      "id": "Qwen/Qwen3.5-397B-A17B",
+      "name": "Qwen/Qwen3.5-397B-A17B",
+      "supports_multimodal": false,
+      "supports_image": false,
+      "supports_video": false,
+      "probe_source": "probed",
+      "generate_kwargs": {}
+    }
+  ],
+  "api_key_prefix": "",
+  "is_local": false,
+  "freeze_url": false,
+  "require_api_key": true,
+  "is_custom": true,
+  "support_model_discovery": false,
+  "support_connection_check": false,
+  "generate_kwargs": {},
+  "meta": {}
+}
